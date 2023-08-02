@@ -1,1 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/jmQFTmFT)
+# Week 7 Assignment Overview
+
+For Week 7's Assignment, we are to create an interactive and responsive web application using newly learned materials, such as :
+1. nodejs
+- setting up project
+- install, uninstall & custom script (package.json)
+2. Typescript 
+- setting up project with Typescript
+- Compiling Typescript into Javascript
+3. HTML & Typescript DOM
+- DOM manipulation using Typescript
+- Reusable Typescript code
+- Event Handling
+
+## nodejs
+
+Nodejs
+: 
