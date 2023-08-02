@@ -1,0 +1,21 @@
+{
+  "name": "week-7-sherinolivia",
+  "version": "1.0.0",
+  "description": "Week 7's Assignment - nodejs + typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Sherin Olivia",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
