@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roo's Finance Tracker!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/coin.ico">
+</head>
+<body>
+    <h1> Financial Tracker</h1>
+    <form>
+        <div class="form-data"><label for="dataType">Type:</label>
+        <select name="Type" id="dataType">
+            <option value="Cash in">Cash in</option>
+            <option value="Cash out">Cash out</option>
+        </select>
+        </div>
+
+        <div class="form-data"><label for="transaction" class="form-titles">Transaction:</label>
+        <input name="transaction" id="transaction" type="text" required>
+        </div>
+
+        <div class="form-data"><label for="transactionDetails" class="form-titles">Details:</label>
+        <input name="transactionDetails" id="transactionDetails" type="text" required>
+        </div>
+
+        <div class="form-data"><label for="transactionAmount" class="form-titles">Amount(Rp):</label>
+        <input name="transactionAmount" id="transactionAmount" type="number" required>
+        </div>
+
+        <button type="submit" class="submit-button">Add</button>
+    </form>
+
+    <ul class="transaction-history"> </ul>
+
+    <script src="./app.js"></script>
+</body>
+</html>
