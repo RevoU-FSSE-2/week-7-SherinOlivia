@@ -5,6 +5,7 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    list-style: none;
   }
 
   :root {
@@ -59,6 +60,7 @@
     width: 75vw;
     border-radius: 5px;
     height: 7vw;
+    padding-left: 2.5vw;
   }
 
   body form button {
@@ -68,6 +70,26 @@
     width: 20vw;
     height: 7vw;
     margin-top: 5vw;
+  }
+
+  body .transaction-history {
+    color: var(--primary-background-color);
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+  }
+
+  body .transaction-history li {
+    background-color: var(--primary-text-color);
+    padding: 5vw 7.5vw;
+  }
+
+  body .transaction-history h4 {
+    margin-bottom: 2vw;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: underline 1.5px white;
   }
 
   @media only screen and (min-width: 768px) {
