@@ -6,20 +6,26 @@ financeForm.addEventListener('submit', (e) => {
     let transactionType = document.querySelector("#dataType").value;
     let transaction = document.querySelector("#transaction").value;
     let transactionDetails = document.querySelector("#transactionDetails").value;
-    let transactionAmount = document.querySelector("#transactionAmount").value;
-    let transactionHistory = (document.querySelector(".transaction-history"));
-    let defaultHistory = transactionHistory === null || transactionHistory === void 0 ? void 0 : transactionHistory.innerHTML;
-    const newHistory = `
-    <li>
-        <h4>${transactionType}</h4>
-        <p>You ${transactionType} Rp. ${transactionAmount} for ${transaction} (Note: ${transactionDetails})</p>
-    </li>
-    `;
-    defaultHistory += newHistory;
-    if (transactionHistory != undefined) {
-        transactionHistory.innerHTML = defaultHistory;
+    let transactionAmount = document.querySelector("#transactionAmount").value.toLocaleString();
+    if ((transaction == "" || transaction == null) || (transactionDetails == "" || transactionDetails == null) || (transactionAmount == "" || transactionAmount == null)) {
+        alert('Field Cannot Be Empty..!!!!');
+    }
+    else {
+        let transactionHistory = (document.querySelector(".transaction-history"));
+        if (transactionHistory != undefined || null) {
+            let defaultHistory = transactionHistory === null || transactionHistory === void 0 ? void 0 : transactionHistory.innerHTML;
+            const newHistory = `
+            <li>
+                <h4>${transactionType}</h4>
+                <p>You ${transactionType} Rp. ${transactionAmount} for ${transaction} (Note: ${transactionDetails})</p>
+            </li>
+            `;
+            transactionHistory.innerHTML = defaultHistory += newHistory;
+            // clear input fields when click submit
+            let formInputs = document.querySelectorAll("#dataType, #transaction, #transactionDetails, #transactionAmount");
+            formInputs.forEach(formInput => {
+                formInput.value = "";
+            });
+        }
     }
 });
-// const newH4 = document.createElement("h4")
-// newH4.textContent = "Hallo Semua"
-// console.log(newH4.innerText);
