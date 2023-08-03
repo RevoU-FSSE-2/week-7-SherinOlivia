@@ -8,8 +8,8 @@
     <link rel="icon" type="image/x-icon" href="./assets/coin.ico">
 </head>
 <body>
-    <h1> Financial Tracker</h1>
-    <form>
+    <h1 id="titlee"> Financial Tracker</h1>
+    <form id="financeForm">
         <div class="form-data"><label for="dataType">Type:</label>
         <select name="Type" id="dataType">
             <option value="Cash in">Cash in</option>
@@ -18,11 +18,11 @@
         </div>
 
         <div class="form-data"><label for="transaction" class="form-titles">Transaction:</label>
-        <input name="transaction" id="transaction" type="text" required>
+        <input name="transaction" id="transaction"  type="text" required>
         </div>
 
         <div class="form-data"><label for="transactionDetails" class="form-titles">Details:</label>
-        <input name="transactionDetails" id="transactionDetails" type="text" required>
+        <input name="transactionDetails" id="transactionDetails"  type="text" required>
         </div>
 
         <div class="form-data"><label for="transactionAmount" class="form-titles">Amount(Rp):</label>
@@ -32,7 +32,7 @@
         <button type="submit" class="submit-button">Add</button>
     </form>
 
-    <ul class="transaction-history"> </ul>
+    <ul class="transaction-history"></ul>
 
     <script src="./app.js"></script>
 </body>
