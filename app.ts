@@ -27,11 +27,9 @@ financeForm.addEventListener('submit', (e) => {
             transactionHistory.innerHTML = defaultHistory += newHistory; 
             
             // clear input fields when click submit
-            let formInputs = document.querySelectorAll("#dataType, #transaction, #transactionDetails, #transactionAmount")
+            let formInputs: NodeListOf<HTMLInputElement> = document.querySelectorAll("#dataType, #transaction, #transactionDetails, #transactionAmount")
             formInputs.forEach(formInput => {
-                interface form {
-                   formInput: string;
-                }
+
                 formInput.value = ""
             })
         }
