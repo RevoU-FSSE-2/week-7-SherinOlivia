@@ -12,6 +12,11 @@ For Week 7's Assignment, we are to create an interactive and responsive web appl
 - Reusable Typescript code
 - Event Handling
 
+## Deployed Website
+<p align="center">
+<a href="https://cdproojektred.netlify.app/">cdproojektred.netlify.app</a>
+</p>
+
 ## nodejs
 
 Nodejs
