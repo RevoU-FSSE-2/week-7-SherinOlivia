@@ -14,7 +14,7 @@ For Week 7's Assignment, we are to create an interactive and responsive web appl
 
 ## Deployed Website
 <p align="center">
-<a href="https://cdproojektred.netlify.app/">cdproojektred.netlify.app</a>
+<a href="https://roofinancetracker.netlify.app/">roofinancetracker.netlify.app</a>
 </p>
 
 ## nodejs
