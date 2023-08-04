@@ -20,10 +20,10 @@ For Week 7's Assignment, we are to create an interactive and responsive web appl
 </p>
 
 - Tablet Dimension
-![Deployedweb-tablet](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/deployedweb-tablet.webp?token=GHSAT0AAAAAACCWZZISMHS34KW2T5E3WO5YZGNJ37A)
+![Deployedweb-tablet](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/deployedweb-tablet.webp?token=GHSAT0AAAAAACCWZZIT2Z6TKBXAD36YM3QSZGNKQZA)
 
 - Mobile Dimension
-![Deplyedweb-mobile](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/deployedweb-mobile.webp?token=GHSAT0AAAAAACCWZZITIBWSND5UPTLLWBFMZGNJ3UQ)
+![Deplyedweb-mobile](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/deployedweb-mobile.webp?token=GHSAT0AAAAAACCWZZIT7APR4D7F6K6XWGYQZGNKQ2A)
 
 ## Nodejs
 
@@ -32,14 +32,14 @@ For Week 7's Assignment, we are to create an interactive and responsive web appl
 
 **Installation**
 1. First, go to [**nodejs.org**](https://nodejs.org/)
-[![Nodejs-Web](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/nodejs-web-download.webp?token=GHSAT0AAAAAACCWZZISFC7TAFEJHX57U42UZGNKFDA)](https://nodejs.org/en)
+[![Nodejs-Web](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/nodejs-web-download.webp?token=GHSAT0AAAAAACCWZZITWMRCYZP2RV32YIUSZGNKQOQ)](https://nodejs.org/en)
 2. Click on `download` and double-click on the installer once it finishes downloading.
 3. Install and wait for the Installation to complete
-![Nodejs-Install](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/nodejsInstall.webp?token=GHSAT0AAAAAACCWZZITPUUYC3T7VNZB5M2QZGNKFNQ)
-![Nodejs-InstallComplete](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/nodejs-InstallDone.webp?token=GHSAT0AAAAAACCWZZITL3QDTCF2UTI3266CZGNKFVA)
+![Nodejs-Install](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/nodejsInstall.webp?token=GHSAT0AAAAAACCWZZITNLBUEDD5FRS2WUKYZGNKPPA)
+![Nodejs-InstallComplete](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/nodejs-InstallDone.webp?token=GHSAT0AAAAAACCWZZITSN3MAUATAG7RCRWCZGNKPQQ)
 
 **Nodejs init, Install, Uninstall**
-![Nodejs-init](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/npm-init.webp?token=GHSAT0AAAAAACCWZZITUGNUCLHIQ5B7AP5YZGNKF6Q)
+![Nodejs-init](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/npm-init.webp?token=GHSAT0AAAAAACCWZZITUG4WHM2N6EVTKLI6ZGNKPDA)
 1. To use nodejs's features, we first have to initialize the nodejs project by creating `package.json` which is automatically created through: `npm init` command.
 - to create a default `package.json` (skipping ahead the list of information to fill), use the command: `npm init -y`. We still can edit the informations inside manually afterward.
 2. If your project needs `dependencies` [aka your project relies on other library/framework], such as `bootstrap`, we can install that with the command: `npm install bootstrap`. They will automatically shown and listed in the `package.json`
@@ -49,7 +49,7 @@ For Week 7's Assignment, we are to create an interactive and responsive web appl
 - example: `"watch": "tsc --watch"`
 
 
-![Nodejs-packagejson](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/npminit-packagejson.webp?token=GHSAT0AAAAAACCWZZISZED5GB2TIU53HWP2ZGNKGHA)
+![Nodejs-packagejson](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/npminit-packagejson.webp?token=GHSAT0AAAAAACCWZZITIZIOXM5OGBDMVD7MZGNKO3A)
 
 
 ## Typescript
@@ -69,8 +69,8 @@ Because we uses javascript file to handle our html file's backend needs, we have
 ![npm-pnpm-tsc-version](https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/main/assets/documentations/npm-tsc-pnpm-ver.webp?token=GHSAT0AAAAAACCWZZISY5IHCL5NNZWRKL3QZGNKLRA)
 ### Contact Me:
 
-<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/1c5fe23ec11e53d6016917a61761b60e66e84c98/assets/gmail-icon.svg?token=A74SPLFVGVTP7CPSDHK2R63EZVHG2" width="15px" background-color="none">[SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/46be0dd6ceefca9cba9fcca8a0c0209840a6fa68/assets/gmail-icon.svg?token=A74SPLEO63RKMYAASWJCPH3EZVJYY" width="15px" background-color="none">[SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
 
-<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/1c5fe23ec11e53d6016917a61761b60e66e84c98/assets/gmail-icon.svg?token=A74SPLFVGVTP7CPSDHK2R63EZVHG2" width="15px" background-color="none">[SOlivia@gmail.com](mailto:SOlivia198@gmail.com) [Work]
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-7-SherinOlivia/46be0dd6ceefca9cba9fcca8a0c0209840a6fa68/assets/gmail-icon.svg?token=A74SPLEO63RKMYAASWJCPH3EZVJYY" width="15px" background-color="none">[SOlivia@gmail.com](mailto:SOlivia198@gmail.com) [Work]
 
 [![Roo-Discord](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-discord.svg)](https://discord.com/users/shxdxr#7539)[![Roo-Instagram](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-instagram.svg)](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==)[![Roo-LinkedIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-linkedin-circled.svg)](https://www.linkedin.com/in/sherin-olivia-07311127a/)
