@@ -35,6 +35,8 @@
 
   body form {
     background-color: var(--secondary-background-color);
+    box-shadow: var(--primary-text-color) 0px 1px 2px, var(--primary-text-color) 0px 2px 4px, 
+    var(--primary-text-color) 0px 4px 8px, var(--primary-text-color) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     width: 100%;
     display: block;
     text-align: center;
@@ -54,13 +56,23 @@
     width: 25vw;
     border-radius: 5px;
     height: 7vw;
+    border-color: 3px var(--primary-text-color);
   }
+
+  body form select:hover {
+    box-shadow: var(--primary-text-color) 0px 20px 30px -10px;
+  }
+
 
   body form input {
     width: 75vw;
     border-radius: 5px;
     height: 7vw;
     padding-left: 2.5vw;
+  }
+
+  body form input:hover {
+    box-shadow: var(--primary-text-color) 0px 20px 30px -10px;
   }
 
   body form button {
@@ -70,6 +82,12 @@
     width: 20vw;
     height: 7vw;
     margin-top: 5vw;
+    cursor: pointer;
+  }
+
+  body form button:hover {
+    box-shadow: var(--primary-text-color) 0px 20px 30px -10px;
+
   }
 
   body .transaction-history {
