@@ -29,6 +29,7 @@ financeForm.addEventListener('submit', (e) => {
             // clear input fields when click submit
             let formInputs = document.querySelectorAll("#dataType, #transaction, #transactionDetails, #transactionAmount")
             formInputs.forEach(formInput => {
+                type formInput = string
                 formInput.value = ""
             })
         }
