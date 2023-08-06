@@ -11,7 +11,8 @@
     <h1 id="titlee"> Financial Tracker</h1>
     <form id="financeForm">
         <div class="form-data"><label for="dataType">Type:</label>
-        <select name="Type" id="dataType">
+        <select name="Type" id="dataType" required>
+            <option value=""></option>
             <option value="Cash in">Cash in</option>
             <option value="Cash out">Cash out</option>
         </select>
@@ -26,7 +27,7 @@
         </div>
 
         <div class="form-data"><label for="transactionAmount" class="form-titles">Amount(Rp):</label>
-        <input name="transactionAmount" id="transactionAmount" type="number" pattern="\d*" placeholder="Transaction Amount..">
+        <input name="transactionAmount" id="transactionAmount" type="number" pattern="\d*" min="1000" placeholder="Transaction Amount..">
         </div>
 
         <button type="submit" class="submit-button">Add</button>
