@@ -7,8 +7,14 @@ financeForm.addEventListener('submit', (e) => {
     let transaction = document.querySelector("#transaction").value;
     let transactionDetails = document.querySelector("#transactionDetails").value;
     let transactionAmount = document.querySelector("#transactionAmount").value;
-    if ((transaction == "" || transaction == null) || (transactionDetails == "" || transactionDetails == null) || (transactionAmount == "" || transactionAmount == null)) {
-        alert('Field Cannot Be Empty..!!!!');
+    if (transaction == "" || transaction == null) {
+        inputAlert('Transaction Purpose');
+    }
+    if (transactionDetails == "" || transactionDetails == null) {
+        inputAlert('Transaction Detail');
+    }
+    if (transactionAmount == "" || transactionAmount == null) {
+        inputAlert('Transaction Amount');
     }
     else {
         let transactionHistory = (document.querySelector(".transaction-history"));
@@ -24,9 +30,12 @@ financeForm.addEventListener('submit', (e) => {
             transactionHistory.innerHTML = defaultHistory += newHistory;
             // clear input fields when click submit
             let formInputs = document.querySelectorAll("#dataType, #transaction, #transactionDetails, #transactionAmount");
-            formInputs.forEach(formInput => {
+            formInputs.forEach((formInput) => {
                 formInput.value = "";
             });
         }
+    }
+    function inputAlert(inputElement) {
+        alert(inputElement + ' Cannot Be Empty..!!!!');
     }
 });
